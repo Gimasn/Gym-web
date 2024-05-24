@@ -1,0 +1,193 @@
+
+
+.container {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  background-image: url(bg.jpg);
+ background-size: cover;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.navbar h1 {
+  color: white;
+}
+
+
+
+.nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+#menu {
+  display: none;
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.main {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+padding-top: 250px;
+padding-bottom: 300px;
+}
+
+button {
+  margin-top: 50px;
+  color: white;
+}
+
+
+#btn1 {
+  border: 1px solid green;
+  padding: 5px 8px;
+  border-radius: 25px;
+  background-color: green;
+}
+
+#btn2 {
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 5px 8px;
+  background: transparent;
+  margin-left: 5px;
+}
+
+.side {
+  margin-top: 200px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side .image img {
+  width: 300px;
+}
+
+
+.side .text p {
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.side .text {
+  padding: 50px;
+  padding-top: 100px;
+}
+
+
+
+.get {
+  background-color: black;
+  color: white;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.get h1 {
+  padding-top: 50px;
+}
+.get #akhir {
+  border: 1px solid green;
+  padding: 5px 8px;
+  border-radius: 25px;
+  background-color: green;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+/*responsive for tablet*/
+
+
+@media (max-width:991px ){
+  
+}
+
+
+
+/*responsive for mobile*/
+
+@media (max-width:767px ){
+  
+.side {
+  margin-top: 200px;
+  padding: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  align-content:center ;
+  
+}
+
+.nav {
+  display: none;
+  position: fixed;
+  background-color: black;
+  margin-left: -10px;
+  margin-top: -50px;
+} 
+.nav ul li {
+  display: block;
+  text-align: left;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.navbar {
+    position: fixed;
+}
+  #menu {
+    display: block;
+    color: white;
+   
+  }
+  
+  html .side .img {
+    width: 50px;
+  }
+  
+  .main {
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  justify-content: center;
+padding-top: 200px;
+padding-bottom: 250px;
+}
+  .container {
+    background-size: cover;
+  }
+}
+
